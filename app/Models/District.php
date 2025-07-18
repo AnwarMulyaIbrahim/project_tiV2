@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class City extends Model
+class District extends Model
 {
     /**
      * fillable
@@ -12,6 +12,6 @@ class City extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'province_id'
+        'name', 'city_id'
     ];
 }
