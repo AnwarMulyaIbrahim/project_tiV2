@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Customer extends Model
+class Cart extends Model
 {
     /**
      * fillable
@@ -12,6 +12,6 @@ class Customer extends Model
      * @var array
      */
     protected $fillable = [
-        'image', 'name', 'email', 'password', 'phone'
+        'customer_id', 'product_id', 'qty'
     ];
 }
